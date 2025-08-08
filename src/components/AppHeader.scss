@@ -1,0 +1,30 @@
+header.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  .header-container {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--foreground);
+
+    &:hover {
+      color: var(--foreground);
+      opacity: 0.8;
+    }
+  }
+
+  .ant-menu {
+    border-bottom: none;
+    font-size: 1rem;
+  }
+}
